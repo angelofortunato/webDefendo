@@ -1,8 +1,7 @@
 	<!DOCTYPE html>
 	<html lang="it">
 	<head>
-	    <link rel="icon" href="img/logo.png" type="image/png" />
-	<title>WebDefendo</title>
+	<title>Chi Siamo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 	<link href="style/style.css" rel="stylesheet" type="text/css">
@@ -38,7 +37,7 @@
 					<div class="tendina">
 							<ul id="menu">
 								<li><a href="index.php" onclick="closemenu()"><span>Home</span></a></li>
-								<li><a href="chisiamo.php" onclick="closemenu()"><span>Chi Siamo</span></a></li>
+								<li><a href="#" onclick="closemenu()"><span>Chi Siamo</span></a></li>
 								<li><a href="#" onclick="closemenu()"><span>Annunci</span></a></li>
 							</ul>
 					</div>
@@ -98,81 +97,7 @@
 					riferimento all'oggetto sociale, nei limiti consentiti dalla legge
 					vigente.
 				</div>
-<hr class="spazio">
-			</div>
-			<div class="boh2">
-				<h3>Membri</h3>
-				<div id="slider-bar">
-					<div id="slider4" class="text-center">
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente"/>
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%; " alt="foto utente"/>
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-						<div class="slide-img">
-							<a href=""> <img src="img/no-image.png" style="width: 100%;" alt="foto utente" />
-								<p>nome cognome</p>
-								<p>professione</p>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
+
 <hr class="spazio">
 			<div class="boh" id="divMessage">
 				<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
