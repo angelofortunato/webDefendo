@@ -8,7 +8,7 @@
 	<head>
 		<title>webDefendo-Home</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -66,7 +66,15 @@
 									<li><a href="articolo.html" class="button large">Continua</a></li>
 								</ul>
 							</article>
-
+							<!-- Twitter Button -->
+							
+							<div class="tw-button" ></div>
+							
+							<!-- Twitter Box -->
+							<div id="tw-box">
+								<a class="twitter-timeline" href="https://twitter.com/WDefendo?ref_src=twsrc%5Etfw" data-width="600" data-height="600" data-chrome="">Tweets by WDefendo</a>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</div>
 						<!-- Posts -->
 							<section class="posts">
 								<article>
@@ -201,6 +209,23 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+var fixmeTop = $('.tw-button').offset().top;
+$(window).scroll(function() {
+    var currentScroll = $(window).scrollTop();
+    if (currentScroll >= fixmeTop) {
+        $('.tw-button').css({
+            position: 'fixed',
+            top: '10px',
+            left: '90.4%'
+        });
+    } else {
+        $('.tw-button').css({
+            position: 'static'
+        });
+    }
+});
+		</script>
 
 	</body>
 </html>
