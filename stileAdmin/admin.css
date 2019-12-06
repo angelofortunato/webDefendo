@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding:0;
+	background-color: white;
+}
+aside{
+	background-color: #2F2F2F;
+	height: 100%;
+	position: fixed;
+	width: 100px;
+	z-index: 10;
+}
+main{
+	padding:20px;
+	margin-left: 100px;
+	
+}
+.btn-aside{
+	display: block;
+	width: 100px;
+	height: 100px;
+	color: white;
+	background-color: transparent;
+	border: 0;
+	outline:none;
+	font-size:1.1em;
+	transition: background 0.5s,color 1s;
+}
+.btn-aside:hover{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+aside a:hover{
+	text-decoration: none;
+}
+.glyphicon{
+	font-size:2em;
+}
+#sub-menu{
+	position: absolute;
+	bottom:10px;
+}
+
+
+
+
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s
+}
+
+.pagination .active {
+  background-color: #102542;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+
+
+.pagination a:hover:not(.active) {background-color: #ddd;}

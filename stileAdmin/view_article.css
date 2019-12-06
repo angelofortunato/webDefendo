@@ -1,0 +1,37 @@
+.corpo{
+    display: none;
+}
+.articolo{
+    border: 1px solid transparent;
+    width: auto;
+    margin: 25px;
+    margin-top: 0;
+        border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.content-img{
+    display: inline-block;
+    vertical-align: -60px;
+    margin: 25px;
+    width: 150px;
+    height: 100px;
+}
+.content-img img{
+    width: 150px;
+    height: 100px;
+}
+.content-text{
+    display: inline-block;
+    vertical-align: top;
+}
+.btn-modify{
+    border:0;
+    background-color: #102542;
+    padding: 8px;
+    color:white;
+    width: 80px;
+    border-radius: 5px;
+    
+}

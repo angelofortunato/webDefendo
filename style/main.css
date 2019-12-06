@@ -1,0 +1,261 @@
+#main{ 
+		background-color: white;
+    padding:2.5% ;
+	}
+
+#infocookie{
+    
+    display: none;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
+
+#infocookie p{
+    
+    margin: 1%;
+    margin-bottom: 0;
+    
+}
+
+#infocookie span{
+    font-weight: bold;
+    color:yellow;
+    
+}
+
+#infocookie button{
+    position: relative;
+    left: 100%;
+    margin-left: -150px;
+    margin-bottom:1.5%;
+		padding: 10px;
+		border: 0;
+		background-color: #102542;
+		color: white;
+		text-transform: uppercase;
+		font-weight: bold;
+		cursor: pointer;
+		min-width: 100px;
+		border-radius: 20px;
+		outline: none;
+		
+		
+    
+    
+}
+
+#centra_testo_scorr{
+    text-align: left;
+}
+
+.spazio{
+	align-content: center;
+	border: 1px solid #102542;
+	width: 100%;
+	margin:0;
+	margin-top: 1%;
+}
+
+
+
+	.boh {
+		background-color: white;
+		text-align: center;
+		display: none;
+		
+	}
+	.boh > form{
+		padding: 2%;
+	}
+	 textarea {
+		padding: 20px;
+		width: 40%;
+		border:1.3px solid #102542;
+		border-radius: 20px;
+		 outline: none;
+		-webkit-transition: box-shadow 0.8s; /* For Safari 3.1 to 6.0 */
+    	transition: box-shadow 0.8s;
+	}
+	textarea:focus{
+	 box-shadow: 0 0 2pt 1pt #102542;
+	
+	}
+	 input {
+		width: 30%;
+		padding: 10px;
+		margin-right: 20%;
+		margin-left: 20%;
+		border: 0;
+		/*border:1.3px solid #102542;
+		border-radius: 20px;*/
+		 border-bottom: 1.3px solid #102542;
+		 border-left: 1.3px solid #102542;
+		 border-bottom-left-radius: 15px;
+		 border-top-right-radius: 15px;
+		 outline: none;
+		-webkit-transition: box-shadow 0.8s; /* For Safari 3.1 to 6.0 */
+    	transition: box-shadow 0.8s;
+	}
+
+	input:focus{
+	 box-shadow: 0 0 2pt 1pt #102542;
+	
+	}
+
+	.boh > h3{
+		text-align: left;
+		margin-left: 1%;
+	}
+	.boh2 {
+		background-color: white;
+		text-align: center;
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+		width: 95%;
+		padding-bottom: 1%;
+	}
+
+	.boh2 > h3{
+		margin-top: 0;
+		text-align: center;
+		font-weight: bold;
+	}
+	#slider-bar{
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	#slider4 {
+		white-space: nowrap;
+		margin-bottom: 20px;
+		margin: 10px;	
+		text-align: center;
+	}
+	.slide-img {
+		background: #ccc;
+		height: 100px;
+		display: inline-block;
+		width: 100px;
+		margin-right: 10%;
+	}
+	.slide-img a{
+		text-decoration: none;
+		color: black;
+		font-weight: 600;
+		
+	}
+	.button{
+		margin: 0;
+		padding: 10px;
+		border: 0;
+		background-color: #102542;
+		color: white;
+		text-transform: uppercase;
+		font-weight: bold;
+		cursor: pointer;
+		min-width: 100px;
+		border-radius: 20px;
+	}
+	
+	.articolo{
+	    
+	     border-bottom: 2px solid #102542;
+	     min-height: 380px;
+	     
+	     
+	}
+	.articolo > h2{
+	    margin: 0;
+	    padding:0;
+	    border: 0;
+	    
+	}
+	
+	
+	.data, .autore{
+        color: grey;	    
+	    font-size: 0.9em;
+	}
+	
+	.tag{
+	  
+    text-decoration: none;
+	    color:white;
+	    font-size: 0.7em;
+	    font-weight: bold;
+	    background-color: #102542;
+	   padding:2px;
+	   padding-right: 5px;
+	   padding-left: 5px;
+	    border-radius: 7px;
+	}
+	
+	
+
+	
+.fotoBox img {
+  float: left;
+  margin-right: 1%;
+  max-width: 350px;
+  border: none;
+}	   
+
+    
+.linktag{
+    
+    text-decoration: none;
+    
+}
+
+
+ .fotoBox, a.fotoBox {
+ float:left;
+  clear: left;
+  padding: 3px;
+  margin: 0 0 1% 0;
+  text-decoration: none;
+  color: #000;
+}
+ .titoloLink, a.titoloLink {
+  text-decoration: none;
+  color:#102542;
+}
+
+
+
+@media screen and ( max-width : 600px ){
+	textarea,input{
+			margin: 0;
+			width: 90%;
+		}
+		.articolo{
+	    
+	     border-bottom: solid;
+	     height: 100%;
+	}
+		
+		.fotoBox img {
+		    float: none;
+		    
+		    margin-bottom: 1%;
+		    margin-left: 5%;
+		    margin-right: 5%;
+		    width: 90%;
+		    height: 90%;
+ 
+}	
+
+.slide-img {
+    
+    margin-right: 20%;
+    
+}
+
+
+		
+}

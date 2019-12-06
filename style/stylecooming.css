@@ -1,0 +1,69 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.backgroundimg{
+	background: url(../img/hero.jpg);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	font-family: Prime;
+	color: #fff;
+	/*font-family: "Playfair Display";*/
+}
+
+.centro{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+h1{
+	font-size: 40px;
+	letter-spacing: 30px;
+	font-weight: 100;
+}
+
+#demo{
+	font-weight: lighter;
+	word-spacing: 20px;
+}
+
+hr{
+margin: auto;
+width: 80%;
+border: 1.5px solid #fff;
+}
+
+a:hover{
+    font-size: bold;
+    text-decoration: none;
+    color:white;
+    
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+    
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+
+a:active {
+    color:white;
+    text-decoration: underline;
+}

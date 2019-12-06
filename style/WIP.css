@@ -1,0 +1,217 @@
+#main{
+     background-color: white;
+     
+}
+ #infocookie{
+     display: none;
+     z-index: 1;
+     background-color: rgba(0,0,0,0.7);
+     width: 100%;
+     color:white;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+}
+ #infocookie p{
+     margin: 1%;
+     margin-bottom: 0;
+}
+ #infocookie span{
+     font-weight: bold;
+     color:yellow;
+}
+ #infocookie button{
+     position: relative;
+     left: 100%;
+     margin-left: -150px;
+     margin-bottom:1.5%;
+     padding: 10px;
+     border: 0;
+     background-color: #102542;
+     color: white;
+     text-transform: uppercase;
+     font-weight: bold;
+     cursor: pointer;
+     min-width: 100px;
+     border-radius: 20px;
+     outline: none;
+}
+
+ .spazio{
+     align-content: center;
+     border: 1px solid #102542;
+     width: 100%;
+     margin:0;
+     margin-top: 1%;
+}
+ .mail{
+     background-color: white;
+     text-align: center;
+     display: none;
+}
+ .mail > form{
+     padding: 2%;
+}
+ .mail > h3{
+     text-align: left;
+     margin-left: 1%;
+}
+
+#main{
+    display: flex;
+}
+.contMembri{
+    flex: 1;
+    overflow-y: scroll;
+    height: 500px;
+}
+.contArticoli{
+    flex: 1;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ textarea {
+     padding: 20px;
+     width: 40%;
+     border:1.3px solid #102542;
+     border-radius: 20px;
+     outline: none;
+     -webkit-transition: box-shadow 0.8s;
+    /* For Safari 3.1 to 6.0 */
+     transition: box-shadow 0.8s;
+}
+ textarea:focus{
+     box-shadow: 0 0 2pt 1pt #102542;
+}
+ input {
+     width: 30%;
+     padding: 10px;
+     margin-right: 20%;
+     margin-left: 20%;
+     border: 0;
+    /*border:1.3px solid #102542;
+     border-radius: 20px;
+    */
+     border-bottom: 1.3px solid #102542;
+     border-left: 1.3px solid #102542;
+     border-bottom-left-radius: 15px;
+     border-top-right-radius: 15px;
+     outline: none;
+     -webkit-transition: box-shadow 0.8s;
+    /* For Safari 3.1 to 6.0 */
+     transition: box-shadow 0.8s;
+}
+ input:focus{
+     box-shadow: 0 0 2pt 1pt #102542;
+}
+ .slide-img {
+     
+     display: block;
+     
+}
+ .slide-img a{
+     text-decoration: none;
+     color: black;
+     font-weight: 600;
+}
+.centra_testo_scorr p{
+    
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.imgMembro{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.centra_testo_scorr{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+ .button{
+     margin: 0;
+     padding: 10px;
+     border: 0;
+     background-color: #102542;
+     color: white;
+     text-transform: uppercase;
+     font-weight: bold;
+     cursor: pointer;
+     min-width: 100px;
+     border-radius: 20px;
+}
+ .articolo > h2{
+     margin: 0;
+     padding:0;
+     border: 0;
+}
+ .data, .autore{
+     color: grey;
+     font-size: 0.9em;
+}
+ .tag{
+     color:white;
+     font-size: 0.7em;
+     font-weight: bold;
+     background-color: #102542;
+     padding:2px;
+     padding-right: 5px;
+     padding-left: 5px;
+     border-radius: 7px;
+}
+ .tagCont {
+     text-decoration: none;
+}
+ .fotoBox img {
+     float: left;
+     margin-right: 1%;
+     border: none;
+}
+ .fotoBox, a.fotoBox {
+     clear: left;
+     float: left;
+     padding: 3px;
+     margin: 0 0 1% 0;
+     text-decoration: none;
+     color: #000;
+}
+ .titoloLink, a.titoloLink {
+     text-decoration: none;
+     color:#102542;
+}
+ @media screen and ( max-width : 600px ){
+     textarea,input{
+         margin: 0;
+         width: 90%;
+    }
+     .fotoBox img {
+         float: none;
+         margin-bottom: 1%;
+         margin-left: 5%;
+         margin-right: 5%;
+         width: 90%;
+         height: 90%;
+    }
+     .slide-img {
+         margin-right: 20%;
+    }
+}
